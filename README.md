@@ -36,3 +36,27 @@ The application is built using `FastAPI` for the backend, with a simple CLI usin
    docker build -t twitter-softarch .
    docker run -p 8000:8000 twitter-softarch
    ```
+
+## Usage 
+
+- To register a new user, run:
+
+    ```bash
+    twitter-cli register-user
+    ```
+  
+- To write message, run: 
+   ```bash
+    twitter-cli write-message
+    ```
+- To view the feed, run:
+
+    ```bash
+    twitter-cli get-messages
+    ```
+- To like a message, run:
+
+    ```bash
+    twitter-cli like-message
+    ```
+
